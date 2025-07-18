@@ -1,18 +1,40 @@
-echo ".vs/
-*.ipch
+# Visual Studio 临时文件
+.vs/
+*.vcxproj.user
 *.suo
-*.VC.db*
-*.tlog/
-*.obj
+*.user
+*.cache
 *.log
-*.pch
-*.exe
+*.tlog
+*.ipch
+*.aps
+*.ncb
+*.ilk
 *.pdb
+*.obj
+*.exe
+*.bak
+*.tmp
+*.sdf
+
+# 构建输出文件夹
 x64/
 Debug/
 Release/
-*.user
-*.sln
-*.vcxproj
-*.vcxproj.filters
-" > .gitignore
+build/
+
+# Qt Creator 临时文件
+*.autosave
+*.pro.user
+*.qbs.user
+*.qmake.stash
+
+# CMake 生成文件（如果你用 CMake）
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 通用系统文件
+.DS_Store
+Thumbs.db
