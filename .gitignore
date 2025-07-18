@@ -1,0 +1,18 @@
+echo ".vs/
+*.ipch
+*.suo
+*.VC.db*
+*.tlog/
+*.obj
+*.log
+*.pch
+*.exe
+*.pdb
+x64/
+Debug/
+Release/
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+" > .gitignore
